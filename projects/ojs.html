@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Details about the design process and artifacts of the OJS project">
+    <meta name="author" content="Philip Adeoye">
+
+    <title>Philip Adeoye | Projects - Open Journal System</title>
+
+    <!-- Bootstrap Paper theme CSS -->
+    <link href="../css/bootstrap-paper.css" rel="stylesheet">
+
+    <link href="../css/site.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.html">
+                    <span class="glyphicon glyphicon-home" style="margin-right: 15px"></span> 
+                    <span class="hidden-xs">Philip Adeoye</span>
+                </a>
+            </div>
+            <div>
+                <ul class="site-nav-right">
+                    <li>
+                        <a href="../index.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#About">Contact Philip</a>
+                    </li>
+                    <li>
+                        <a href="../docs/PhilipAdeoyeMS-HCI.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+                <h2 class="page-header">Open Journal System</h2>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project Five -->
+        <div class="row">
+
+            <div class="col-md-offset-2 col-md-8">
+                <img class="img-responsive" src="../images/ojs_banner.jpg" alt="OJS" title="Screenshot of OJS high fidelity prototype"><br>
+
+                <h3>Summary</h3>
+                <p>
+                    A redesign of the Public Knowledge Project's Open Journal Systems with a focus on improving communication and coordination
+                    as well enhancing the visibility of task status and action items to ease and streamline the work done
+                    by academic journal editors at all phases of the issue creation process. From receiving a rough manuscript
+                    from an author to coordinating the peer review process, copy-editing, and compiling suitable articles
+                    to publish in an issue, OJS empowers editors to get the work done right.
+                </p>
+
+                <h3>Design Process</h3>
+                <ol>
+                    <li>Review of existing system</li>
+                    <li>Contextual Inquiries</li>
+                    <li>Data Analysis and Modeling</li>
+                    <li>Ideation</li>
+                    <li>Paper Prototyping</li>
+                    <li>Thinkalouds</li>
+                    <li>High Fidelity Prototype</li>
+                </ol>
+
+                <br>
+                <h4>Existing System Review</h4>
+                <p>
+                    Exploring the existing OJS system with my teammates revealed its scale, functionality, and limitations. It supports hundreds
+                    of authors, editors, journal managers, etc in publishing and accessing academic journals, but its messaging
+                    system is <strong>clunky</strong>, managing file versioning is
+                    <strong>difficult</strong>, and it <strong>looks forbidding</strong>.
+                </p>
+                <a href="../images/ojs_existing_1.png" target="_blank"><img class="img-responsive" src="../images/ojs_existing_1.png" 
+                    alt="Old OJS Screenshot" title="Screenshot of existing OJS"></a>
+                <a href="../images/ojs_existing_2.png" target="_blank"><img class="img-responsive" src="../images/ojs_existing_2.png" 
+                    alt="Old OJS Screenshot" title="Screenshot of existing OJS"></a>
+
+                <br>
+                <br>
+                <h4>Contextual Inquiries</h4>
+                <p>
+                    We conducted contextual inquiries with several users to <strong>discover how they actually used it</strong>                    day to day to conduct their work. These contextual inquiries revealed that journal editors were the most
+                    robust users of the system, and that they had devised ingenious ways to overcome its lack of support
+                    for some of their processes
+                </p>
+                <a href="../images/ojs_editor_artifacts_1.png" target="_blank"><img class="img-responsive" 
+                    src="../images/ojs_editor_artifacts_1.png" alt="Physical folders for tracking manuscript status" 
+                    title="Physical folders for tracking manuscript status"></a>
+                <br>
+                <a href="../images/ojs_editor_artifacts_2.png" target="_blank"><img class="img-responsive" 
+                    src="../images/ojs_editor_artifacts_2.png" alt="Physical folders for tracking manuscript status" 
+                    title="Physical folders for tracking manuscript status"></a>
+
+                <br>
+                <br>
+                <h4>Data Analysis and Modeling</h4>
+                <p>
+                    Creating an affinity diagram and flow diagrams illuminated the very process-driven tasks that editors do to publish a journal
+                    issue.
+                </p>
+                <a href="../images/ojs_affinity_diagram.jpg" target="_blank"><img class="img-responsive" 
+                    src="../images/ojs_affinity_diagram.jpg" alt="Affinity Diagram for OJS system" 
+                    title="Affinity Diagram for OJS system"></a>
+                <br>
+                <a href="../images/ojs_flow_diagram_full.png" target="_blank"><img class="img-responsive" 
+                    src="../images/ojs_flow_diagram_full.png" alt="Flow Diagram" title="Flow Diagram"></a>
+                <br>
+                <p>
+                    Analysis and Modeling helped us identify areas of focus:
+                </p>
+                <ul>
+                    <li>Highlight manuscript status and pending tasks</li>
+                    <li>Improve coordination and eliminate conflicts between users</li>
+                    <li>Update visual design to promote discoverability and awareness of available features</li>
+                </ul>
+
+                <br>
+                <br>
+                <h4>Ideation</h4>
+                <p>
+                    <strong>Brainstorming</strong> sessions, <strong>sketching</strong>, and lots of discussion on the merits
+                    and feasibility of the ideas we generated.
+                </p>
+                <a href="../images/ojs_sketches.png" target="_blank">
+                    <img class="img-responsive" src="../images/ojs_sketches.png" alt="Sketches" title="Sketches">
+                </a>
+                <br>
+                <p>
+                    We decided to design a system based around a central kanban board with lists that represented the phases of the review process.
+                </p>
+
+                <br>
+                <br>
+                <h4>Paper Prototype and Thinkalouds</h4>
+                <p>
+                    We created a paper prototype which we used to conduct think-alouds with some journal editors to find out how well it supported
+                    their work process and get feedback for possible improvements.
+                </p>
+
+                <br>
+                <br>
+                <h4>High Fidelity Prototype</h4>
+                <p>
+                    We built a high fidelity prototype with Axure to embody our design solution and conducted think-alouds with editors to discover
+                    how we might improve the idea.
+                </p>
+
+                <p><strong>The Dashboard</strong></p>
+                <p>
+                    A Kanban-style board that shows the overall status of the upcoming issue. Editors can see the people whom they are collaborating
+                    with (in the top left) as well as how many people they are having conversations with on a specific manuscript
+                    (the numbered callouts).
+                </p>
+            </div>
+            <div class="col-md-12">
+                <img class="img-responsive" src="../images/ojs_main_dashboard.jpg" alt="OJS Main Dashboard" title="Main Dashboard showing unassigned manuscripts, those in-review, and those in-editing">
+                <br>
+                <br>
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+
+                <p><strong>Unassigned</strong></p>
+                <p>
+                    An unassigned manuscript is fresh from the author and needs to have an editor assigned to it. Key interface elements such
+                    as the timeline (that shows every event and change made to the manuscript), the versions pane (that keeps
+                    tracks of each user's version), and messages pane (where editors can communicate with each other, reviewers,
+                    etc) are shown.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <img class="img-responsive" src="../images/ojs_unassigned.jpg" alt="OJS Unassigned" title="Lots of work to do between here and publication">
+                <br>
+                <br>
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+
+                <p><strong>Assign an Editor</strong></p>
+                <p>
+                    An editor can self-assign or assign another editor to take charge of an unassigned manuscript
+                </p>
+            </div>
+            <div class="col-md-12">
+                <img class="img-responsive" src="../images/ojs_add_editor.jpg" alt="OJS Add Editor" title="The dynamic duo of Kate and Margo to the rescue">
+                <br>
+                <br>
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+
+                <p><strong>Assign Peer Reviewers</strong></p>
+                <p>
+                    With the existing site, finding reviewers was a bit of a dark art, which our editors had mastered, but they were happy to
+                    see a simpler way.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <img class="img-responsive" src="../images/ojs_add_reviewers.jpg" alt="OJS Add Reviewers" title="We never did figure out what the ratings meant">
+                <br>
+                <br>
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+
+                <p><strong>In Review</strong></p>
+                <p>
+                    A lot of collaboration, so many versions, lots of messages going back and forth, and that timeline's getting long
+                </p>
+            </div>
+            <div class="col-md-12">
+                <img class="img-responsive" src="../images/ojs_in_review.jpg" alt="OJS In Review" title="So many versions, lots of messages going back and forth, and that timeline's getting long">
+                <br>
+                <br>
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+                <p><strong>Preview and Review</strong></p>
+                <p>
+                    No more need for Microsoft Word. View, edit, and annotate the manuscript right in the browser.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <img class="img-responsive" src="../images/ojs_manuscript_reader_w_comm.jpg" alt="OJS Manuscript reader" title="The comments don't actually mean anything">
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+                <br>
+                <br>
+                <hr>
+                <br>
+                <h4 class="text-center">Check out some of my other projects</h4>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="mindspeed.html">
+                                    <img src="../images/mindspeed_banner.png" alt="MINDSpeed">
+                                </a>
+                            <div class="caption">
+                                <a href="mindspeed.html">
+                                    <h3>MINDSpeed</h3>
+                                </a>
+                                <p>Building a system to easily order healthy food and get rewards</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="sharendipity.html">
+                                        <img src="../images/sharendipity_splash_700_300.png" alt="Sharendipity">
+                                    </a>
+                            <div class="caption">
+                                <a href="sharendipity.html">
+                                    <h3>Sharendipity</h3>
+                                </a>
+                                <p>Enabling serendipitous connections between people in close proximity who share interests</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="iusoc.html">
+                                            <img src="../images/iusoc_splash_700_300.jpg" alt="IUSOC">
+                                        </a>
+                            <div class="caption">
+                                <a href="iusoc.html">
+                                    <h3>IUSOC VMS</h3>
+                                </a>
+                                <p>Improving and easing the process of signing up volunteers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="the_car_wizard.html">
+                                    <img src="../images/car_guy_splash_700_300.png" alt="OJS">
+                                </a>
+                            <div class="caption">
+                                <a href="the_car_wizard.html">
+                                    <h3>The Car Wizard</h3>
+                                </a>
+                                <p>Making the online car shopping process a breeze, one answered question at a time</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="../index.html" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span> Back to Projects</a>
+                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-chevron-up"></span> To Top</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-zone">
+                Built by Philip Adeoye with <a href="http://bootswatch.com/paper/" target="_blank">Paper theme for Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

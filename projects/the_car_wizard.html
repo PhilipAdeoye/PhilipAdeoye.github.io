@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Details about the design process and artifacts of The Car Wizard project">
+    <meta name="author" content="Philip Adeoye">
+
+    <title>Philip Adeoye | Projects - The Car Wizard</title>
+
+    <!-- Bootstrap Paper theme CSS -->
+    <link href="../css/bootstrap-paper.css" rel="stylesheet">
+
+    <link href="../css/site.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.html">
+                    <span class="glyphicon glyphicon-home" style="margin-right: 15px"></span> 
+                    <span class="hidden-xs">Philip Adeoye</span>
+                </a>
+            </div>
+            <div>
+                <ul class="site-nav-right">
+                    <li>
+                        <a href="../index.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#About">Contact Philip</a>
+                    </li>
+                    <li>
+                        <a href="../docs/PhilipAdeoyeMS-HCI.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+                <h2 class="page-header">The Car Wizard</h2>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project Five -->
+        <div class="row">
+
+            <div class="col-md-offset-2 col-md-8">
+                <img class="img-responsive" src="../images/car_guy_banner.png" alt="The Car Wiz" title="The Jaguar E-Type. Pretty ain't it?"><br>
+
+                <h3>Summary</h3>
+                <p>
+                    Through answering a series of gradually narrowing questions, The Car Wizard gets to know the user's needs, desires, and aspirations,
+                    and provides a very short list of cars that would be perfect for them. Thus eliminating the burden of
+                    a manual search across all possible makes and models while preserving a user's right to choose.
+                </p>
+
+                <h3>Design Process</h3>
+                <ol>
+                    <li>Data Gathering</li>
+                    <li>Data Analysis</li>
+                    <li>Ideation</li>
+                    <li>Prototyping</li>
+                    <li>Testing</li>
+                </ol>
+
+                <br>
+                <h4>Data Gathering</h4>
+                <p>
+                    Led by me, my team conducted several <strong>semi-structured interviews</strong> with people who had
+                    recently purchased cars that they found via the internet to learn about what their experiences were.
+                    We also conducted <strong>direct observations</strong> with people who were actively looking to purchase
+                    a car to find out how they conducted the task.
+                </p>
+                <a href="../images/car_guy_observation.jpg" target="_blank">
+                    <img class="img-responsive" src="../images/car_guy_observation.jpg" alt="Direct Observation" 
+                        title="A lady looking at cars online" />
+                </a>
+
+                <br>
+                <br>
+                <h4>Data Analysis</h4>
+                <h5>Affinity Diagram</h5>
+                <p>
+                    Creating an affinity diagram revealed different aspects of things people think about when car shopping such as convenience
+                    and safety features, reviews, pricing data, emotional choices...
+                </p>
+                <a href="../images/car_guy_affinity_diagram.png" target="_blank">
+                    <img class="img-responsive" src="../images/car_guy_affinity_diagram.png" alt="Affinity Diagram"
+                        title="Affinity Diagram produced using MURAL"></a>
+
+                <br>
+                <h5>Empathy Map</h5>
+                <p>
+                    "Emotionally grueling" is how I remember the process of empathy mapping. Saying the words, "I don't know where to start,"
+                    "I feel helpless," and others like it centered us and quickened our resolve to find a soothing solution.
+                </p>
+                <br>
+                <a href="../images/car_guy_empathy_map.png" target="_blank">
+                <img class="img-responsive" src="../images/car_guy_empathy_map.png" alt="Empathy Map"
+                    title="Cross Section of the Empathy Map produced using MURAL">
+                </a>
+                <br>
+
+                <p>
+                    Our analysis revealed general themes of </p>
+                <ul>
+                    <li><span class="text-danger">helplessness</span> (from having to do the search by themselves)</li>
+                    <li><span class="text-danger">fear</span> (of making the wrong choice due the sheer number of options available)</li>
+                    <li><span class="text-danger">distrust</span> (dealerships are out to get them)</li>
+                </ul>
+
+                <p>
+                    To have an even firmer grasp of these feelings, we created <strong>personas</strong> to distinctly embody
+                    them and give the team a human focus of this tragedy.
+                </p>
+                <br>
+
+
+                <h5>Persona</h5>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="img-responsive center-block" src="../images/sergey_zagrebnev.jpg" alt="Sergey" title="Sergey Ivanovich Burov">
+                        <br>
+                    </div>
+                    <div class="col-sm-9">
+                        <h5 class="media-heading">Sergey Ivanovich Burov</h5>
+                        <p>
+                            Sergey is new to the US. He is a masters student from Toulouse, France and has only been in the states for a little over
+                            a month. He has heard of how brutal Indianapolis winters can be, and although the cold doesn't
+                            bother him, he's concerned he might be bothering his friends when he asks them for rides to the
+                            store.
+                        </p>
+                        <p>
+                            Sergey wants to be able to explore the city and venture into the countryside to enjoy the imminent fall festivals. He also
+                            wants to be able to give rides to some other friends who may need to get around.
+                        </p>
+                        <p>
+                            While he was in Toulouse before moving to Indy, Sergey owned a Ford Fiesta and really enjoyed driving it around, he also
+                            feels that it brought him good luck. So far, Sergey hasn't had much good luck finding a car in
+                            Indy. He has a hard maximum on his budget and is looking to get a small car that he can easily
+                            park in the city. He would rather not deal with dealerships and is very wary of classified ads.
+                        </p>
+                        <p>
+                            He has tried buying directly from manufacturer's websites, but found out that in Indiana, direct sales from manufacturers
+                            to consumers are forbidden by law. Sergey needs a stress free way to get into a nice hatchback
+                            before the cold winds of winter blow down from the North.
+                        </p>
+                    </div>
+
+                </div>
+
+                <br>
+                <h4>Ideation</h4>
+                <p>
+                    Of the many ideas we generated through <strong>brainstorming</strong>, we picked the ones that guided
+                    users, quickly honed in on suitable options, and were reassuring to users. The fusion of those qualities
+                    is the essence of The Car Wizard.
+                </p>
+
+                <br>
+                <br>
+                <h4>Playing with Paper</h4>
+                <p>
+                    Building a paper prototype to test out our idea was a fun learning experience which allowed us to think through each step
+                    that a potential user would take and to focus on making sure that the affordances that our product had
+                    were clearly indicated.
+                    <a href="../docs/car_wizard_paper_prototype.pdf" target="_blank">The Paper Prototype tested with 
+                    users</a>
+                </p>
+
+                <p><strong>Ease the user in</strong></p>
+                <img class="img-responsive" src="../images/car_guy_paper_home.png" alt="Home Page" title="Home Page">
+                <br>
+
+                <p><strong>Get to know them</strong></p>
+                <img class="img-responsive" src="../images/car_guy_paper_question.png" alt="Random Question" title="Getting to know the user">
+                <br>
+
+                <p><strong>Show them our recommendations</strong></p>
+                <img class="img-responsive" src="../images/car_guy_paper_recommendations.png" alt="Recommendations" title="Here are some fine choices!">
+                <br>
+
+                <p><strong>Finding out more info</strong></p>
+                <img class="img-responsive" src="../images/car_guy_paper_more_info.png" alt="More Info" title="Gah! I can't afford that!">
+                <br>
+
+                <p><strong>I like it. Where can I buy it?</strong></p>
+                <img class="img-responsive" src="../images/car_guy_paper_map.png" alt="More Info" title="Pop ups! How groovy!">
+                <br>
+                <a href="../docs/car_wizard_paper_prototype.pdf" target="_blank">The Paper Prototype tested with users</a>
+
+                <br>
+                <br>
+                <h4>Testing</h4>
+                <p>
+                    <strong>Cognitive Walkthroughs</strong> of representative tasks and <strong>think-alouds</strong> with
+                    users informed us that the concept for The Car Wizard is solid and usable, but its success would lie
+                    with how pertinent the questions it asks are. Essentially, the design is good, but its content, which
+                    we did not tackle, would decide whether it would succeed or not.
+                </p>
+                <br>
+                <hr>
+                <br>
+                <h4 class="text-center">Check out some of my other projects</h4>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="mindspeed.html">
+                                    <img src="../images/mindspeed_banner.png" alt="MINDSpeed">
+                                </a>
+                            <div class="caption">
+                                <a href="mindspeed.html">
+                                    <h3>MINDSpeed</h3>
+                                </a>
+                                <p>Building a system to easily order healthy food and get rewards</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="sharendipity.html">
+                                        <img src="../images/sharendipity_splash_700_300.png" alt="Sharendipity">
+                                    </a>
+                            <div class="caption">
+                                <a href="sharendipity.html">
+                                    <h3>Sharendipity</h3>
+                                </a>
+                                <p>Enabling serendipitous connections between people in close proximity who share interests</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="iusoc.html">
+                                            <img src="../images/iusoc_splash_700_300.jpg" alt="IUSOC">
+                                        </a>
+                            <div class="caption">
+                                <a href="iusoc.html">
+                                    <h3>IUSOC VMS</h3>
+                                </a>
+                                <p>Improving and easing the process of signing up volunteers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="thumbnail">
+                            <a href="ojs.html">
+                                                <img src="../images/ojs_splash_700_300.png" alt="OJS">
+                                            </a>
+                            <div class="caption">
+                                <a href="ojs.html">
+                                    <h3>Open Journals</h3>
+                                </a>
+                                <p>Discovering what's important and reimagining a better experience for academic journal editors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="../index.html" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span> Back to Projects</a>
+                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-chevron-up"></span> To Top</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-zone">
+                Built by Philip Adeoye with <a href="http://bootswatch.com/paper/" target="_blank">Paper theme for Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
